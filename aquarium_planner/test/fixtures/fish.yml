@@ -1,0 +1,67 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  aquarium_id: 
+  name: MyString
+  dwarf_angels: MyString
+  large_angels: MyString
+  anglers_frogs: MyString
+  anthias: MyString
+  basslets: MyString
+  batfish: MyString
+  blennies: MyString
+  boxfish: MyString
+  butterflies: MyString
+  cardinals: MyString
+  chromis: MyString
+  clownfish: MyString
+  damsels: MyString
+  dartfish: MyString
+  dragonets: MyString
+  eels: MyString
+  filefish: MyString
+  foxface_rabbits: MyString
+  gobies: MyString
+  groupers: MyString
+  grunts_sweetlips: MyString
+  jawfish: MyString
+  hawkfish: MyString
+  hogfish: MyString
+  lions_scorpions: MyString
+  parrotfish: MyString
+  pseudochromis: MyString
+  puffers: MyString
+  seahorse_pipefish: MyString
+
+two:
+  aquarium_id: 
+  name: MyString
+  dwarf_angels: MyString
+  large_angels: MyString
+  anglers_frogs: MyString
+  anthias: MyString
+  basslets: MyString
+  batfish: MyString
+  blennies: MyString
+  boxfish: MyString
+  butterflies: MyString
+  cardinals: MyString
+  chromis: MyString
+  clownfish: MyString
+  damsels: MyString
+  dartfish: MyString
+  dragonets: MyString
+  eels: MyString
+  filefish: MyString
+  foxface_rabbits: MyString
+  gobies: MyString
+  groupers: MyString
+  grunts_sweetlips: MyString
+  jawfish: MyString
+  hawkfish: MyString
+  hogfish: MyString
+  lions_scorpions: MyString
+  parrotfish: MyString
+  pseudochromis: MyString
+  puffers: MyString
+  seahorse_pipefish: MyString

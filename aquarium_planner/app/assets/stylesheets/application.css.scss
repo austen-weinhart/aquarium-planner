@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+$hummingbird: #C5EFF7;
+
+body {
+  background-color: $hummingbird;
+}
+
+
+.jumbotron {
+  background-image: url("pufferfish.jpg");
+  background-size: cover;
+
+
+  .lead {
+    color: white;
+  }
+
+  h1 {
+    color: white;
+  }
+}

@@ -1,0 +1,15 @@
+<%# @fish.attributes  %>
+<h1><%= @fish.name %></h1> 
+
+<table  class="table">
+  <tr>
+    <th>Species</th>
+    <th>Compatability</th>
+  </tr>
+    <% @fish.attributes.each do |species, compatability| %>
+      <tr>
+        <td><%= species %></td>
+        <td><%= compatability %></td>
+      </tr>
+    <% end %>
+</table>
