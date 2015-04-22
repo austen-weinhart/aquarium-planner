@@ -16,16 +16,18 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-$hummingbird: #C5EFF7;
+$turquoise: #C5EFF7;
 
 body {
-  background-color: $hummingbird;
+  /* background-color: $turquoise; */
+  background-image: url("water-texture.jpg");
 }
 
 
 .jumbotron {
   background-image: url("pufferfish.jpg");
   background-size: cover;
+  border: 10px solid white;
 
 
   .lead {

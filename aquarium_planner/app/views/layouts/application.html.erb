@@ -8,6 +8,27 @@
 </head>
 <body>
 
+<% if logged_in? %>
+
+      <p>Logged in as: <%= current_user.name %> | <%= link_to 'Log Out', logout_path, method: :delete %></p>
+
+<% else %>
+
+      <div>
+        <%= link_to 'Log In', login_path %> | <%= link_to 'Sign up', signup_path %>
+      </div>
+      
+<% end %>
+
+
+<% if flash[:welcome] %>
+      <h4 class="bg-success flash"><%= flash[:welcome] %></h4>
+ <% end %>
+
+ <% if flash[:error] %>
+      <h4 class="bg-danger flash"><%= flash[:error] %></h4>
+<% end %>
+
 <%= yield %>
 
 </body>
