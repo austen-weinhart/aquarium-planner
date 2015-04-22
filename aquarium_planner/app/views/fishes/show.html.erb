@@ -1,6 +1,6 @@
 <%# @fish.attributes  %>
 <h1><%= @fish.name %></h1> 
-
+<%= @fish_page.html_safe %>
 <table  class="table">
   <tr>
     <th>Species</th>
@@ -13,3 +13,4 @@
       </tr>
     <% end %>
 </table>
+

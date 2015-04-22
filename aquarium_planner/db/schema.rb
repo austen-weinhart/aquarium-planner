@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150422013354) do
+ActiveRecord::Schema.define(version: 20150422023649) do
 
   create_table "aquaria", force: :cascade do |t|
     t.string   "title"
@@ -66,6 +66,7 @@ ActiveRecord::Schema.define(version: 20150422013354) do
     t.string   "live_corals"
     t.string   "invertebrates"
     t.string   "live_rock_sand"
+    t.string   "wiki_url"
   end
 
   add_index "fish", ["aquarium_id"], name: "index_fish_on_aquarium_id"

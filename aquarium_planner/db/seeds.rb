@@ -10,7 +10,8 @@
 # DWARF ANGELS
 #############################################################################
 Fish.create( 
-      name: "Dwarf Angels",
+      name: "Dwarf Angels", 
+      wiki_url: 'Centropyge',
       dwarf_angels: "C",
       large_angels:  "Y",
       anglers_frogs: "C",
@@ -56,6 +57,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Large Angels",
+      wiki_url: 'Pomacanthidae',
       dwarf_angels: "Y",
       large_angels: "C",
       anglers_frogs:  "Y",
@@ -101,6 +103,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Anglers/Frogs",
+      wiki_url: 'Frogfish',
       dwarf_angels: "C",
       large_angels: "Y",
       anglers_frogs:  "C",
@@ -146,6 +149,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Anthias",
+      wiki_url: 'Anthiinae',
       dwarf_angels: "Y",
       large_angels: "Y",
       anglers_frogs:  "C",
@@ -191,6 +195,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Basslets",
+      wiki_url: 'Grammatidae',
       dwarf_angels: "Y",
       large_angels: "Y",
       anglers_frogs:  "N",
@@ -236,6 +241,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Batfish",
+      wiki_url: 'Ephippidae',
       dwarf_angels: "Y",
       large_angels: "Y",
       anglers_frogs:  "Y",
@@ -281,6 +287,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Blennies",
+      wiki_url: 'Blennioidei',
       dwarf_angels: "Y",
       large_angels: "Y",
       anglers_frogs:  "N",
@@ -326,6 +333,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Boxfish",
+      wiki_url: 'Ostraciidae',
       dwarf_angels:  "Y",
       large_angels: "Y",
       anglers_frogs:  "Y",
@@ -371,6 +379,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Butterflies",
+      wiki_url: 'Butterflyfish',
       dwarf_angels: "Y",
       large_angels: "Y",
       anglers_frogs:  "Y",
@@ -416,6 +425,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Cardinals",
+      wiki_url: 'Apogonidae',
       dwarf_angels: "Y",
       large_angels: "C",
       anglers_frogs:  "N",
@@ -461,6 +471,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Chromis",
+      wiki_url: 'Chromis',
       dwarf_angels: "Y",
       large_angels: "Y",
       anglers_frogs:  "N",
@@ -506,6 +517,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Clownfish",
+      wiki_url: 'Amphiprioninae',
       dwarf_angels: "Y",
       large_angels: "Y",
       anglers_frogs:  "N",
@@ -551,6 +563,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Damsels",
+      wiki_url: 'Damselfish',
       dwarf_angels: "Y",
       large_angels: "Y",
       anglers_frogs:  "N",
@@ -596,6 +609,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Dartfish",
+      wiki_url: 'Dartfish',
       dwarf_angels: "Y",
       large_angels: "C",
       anglers_frogs:  "N",
@@ -641,6 +655,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Dragonets",
+      wiki_url: 'Dragonet',
       dwarf_angels: "Y",
       large_angels: "Y",
       anglers_frogs:  "N",
@@ -686,6 +701,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Eels",
+      wiki_url: 'Moray_eel',
       dwarf_angels: "C",
       large_angels: "Y",
       anglers_frogs:  "C",
@@ -731,6 +747,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Filefish",
+      wiki_url: 'Filefish',
       dwarf_angels: "Y",
       large_angels: "C",
       anglers_frogs:  "Y",
@@ -776,6 +793,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Foxface/Rabbits",
+      wiki_url: 'Foxface_rabbitfish',
       dwarf_angels: "Y",
       large_angels: "Y",
       anglers_frogs:  "Y",
@@ -821,6 +839,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Gobies",
+      wiki_url: 'Goby',
       dwarf_angels: "Y",
       large_angels: "C",
       anglers_frogs:  "N",
@@ -866,6 +885,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Groupers",
+      wiki_url: 'Grouper',
       dwarf_angels: "C",
       large_angels: "Y",
       anglers_frogs:  "C",
@@ -911,6 +931,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Grunts/Sweetlips",
+      wiki_url: 'Plectorhinchus',
       dwarf_angels: "Y", 
       large_angels: "Y", 
       anglers_frogs:  "Y", 
@@ -956,6 +977,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Jawfish",
+      wiki_url: 'Opistognathidae',
       dwarf_angels: "Y", 
       large_angels: "C", 
       anglers_frogs:  "N", 
@@ -1001,6 +1023,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Hawkfish",
+      wiki_url: 'Hawkfish',
       dwarf_angels: "Y", 
       large_angels: "Y", 
       anglers_frogs:  "C", 
@@ -1046,6 +1069,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Hogfish",
+      wiki_url: 'Hogfish',
       dwarf_angels: "Y", 
       large_angels: "Y", 
       anglers_frogs:  "C", 
@@ -1091,6 +1115,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Lions/Scorpions",
+      wiki_url: 'Pterois',
       dwarf_angels: "C", 
       large_angels: "Y", 
       anglers_frogs:  "Y", 
@@ -1136,6 +1161,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Parrotfish",
+      wiki_url: 'Parrotfish',
       dwarf_angels: "Y", 
       large_angels: "Y", 
       anglers_frogs:  "C", 
@@ -1181,6 +1207,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Pseudochromis",
+      wiki_url: 'Pseudochromis',
       dwarf_angels: "Y", 
       large_angels: "C", 
       anglers_frogs:  "N", 
@@ -1226,6 +1253,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Puffers",
+      wiki_url: 'Tetraodontidae',
       dwarf_angels: "Y", 
       large_angels: "Y", 
       anglers_frogs:  "C", 
@@ -1271,6 +1299,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Seahorse/Pipefish",
+      wiki_url: 'Seahorse',
       dwarf_angels: "N", 
       large_angels: "N", 
       anglers_frogs:  "N", 
@@ -1316,6 +1345,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Sharks/Rays",
+      wiki_url: 'Elasmobranchii',
       dwarf_angels: "N", 
       large_angels: "C", 
       anglers_frogs:  "N", 
@@ -1361,6 +1391,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Squirrelfish",
+      wiki_url: 'Holocentrinae',
       dwarf_angels: "Y", 
       large_angels: "Y", 
       anglers_frogs:  "Y", 
@@ -1406,6 +1437,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Tangs/Surgeons",
+      wiki_url: 'Acanthuridae',
       dwarf_angels: "Y", 
       large_angels: "Y", 
       anglers_frogs:  "Y", 
@@ -1451,6 +1483,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Triggerfish",
+      wiki_url: 'Triggerfish',
       dwarf_angels: "C", 
       large_angels: "C", 
       anglers_frogs:  "N", 
@@ -1496,6 +1529,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Wrasse: Reef Safe",
+      wiki_url: 'Wrasse',
       dwarf_angels: "Y", 
       large_angels: "Y", 
       anglers_frogs:  "C", 
@@ -1541,6 +1575,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Wrasse: Fish Only",
+      wiki_url: 'Wrasse',
       dwarf_angels: "C", 
       large_angels: "Y", 
       anglers_frogs:  "C", 
@@ -1586,6 +1621,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Live Corals",
+      wiki_url: 'Coral',
       dwarf_angels: "C", 
       large_angels: "C", 
       anglers_frogs:  "Y", 
@@ -1631,6 +1667,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Invertebrates",
+      wiki_url: 'Crustacean',
       dwarf_angels: "C", 
       large_angels: "C", 
       anglers_frogs:  "C", 
@@ -1676,6 +1713,7 @@ Fish.create(
 #############################################################################
 Fish.create( 
       name: "Live Rock/Sand",
+      wiki_url: 'Live_rock',
       dwarf_angels: "Y",
       large_angels: "Y",
       anglers_frogs:  "Y",
