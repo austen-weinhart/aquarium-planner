@@ -19,17 +19,25 @@
 $turquoise: #C5EFF7;
 
 body {
-  /* background-color: $turquoise; */
+  background-color: $turquoise;
   background-image: url("water-texture.jpg");
   background-attachment: fixed;
 }
 
 nav {
   background: rgba(0,0,0,0.5);
+  padding: 10px 10px 10px 20px;
 }
 
 ul {
   list-style-type: none;
+}
+
+.big {
+  background: white;
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid black;
+  margin: 20px 20px 10px 20px;
 }
 
 .jumbotron {

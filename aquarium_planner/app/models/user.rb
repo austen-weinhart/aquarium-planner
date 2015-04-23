@@ -1,7 +1,7 @@
 class User < ActiveRecord::Base
   attr_reader :password
 
-  has_many :aquariums
+  has_many :aquaria
 
   def password=(unencrypted_password)
     unless unencrypted_password.empty?
