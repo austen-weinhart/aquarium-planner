@@ -1,0 +1,17 @@
+<h1>Plan a New Aquarium</h1>
+
+<%= form_for @aquarium do |f| %>
+
+  <div>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </div>
+
+  <div>
+    <%= f.label :description %>
+    <%= f.text_area :description %> <!-- text_area is different than text_field -->
+  </div>
+
+  <%= f.submit "Submit" %>
+
+<% end %> <!-- closing out the form_for method -->

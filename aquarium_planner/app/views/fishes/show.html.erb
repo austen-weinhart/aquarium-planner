@@ -1,16 +1,21 @@
-<%# @fish.attributes  %>
 <h1><%= @fish.name %></h1> 
-<%= @fish_page.html_safe %>
-<table  class="table">
-  <tr>
-    <th>Species</th>
-    <th>Compatability</th>
-  </tr>
-    <% @fish.attributes.each do |species, compatability| %>
-      <tr>
-        <td><%= species %></td>
-        <td><%= compatability %></td>
-      </tr>
-    <% end %>
-</table>
 
+<div id="wiki" class="col-sm-8 box">
+  <%# Fish Wikipedia Profile %>
+  <%= @fish_page.html_safe %> 
+</div>
+
+<div id="compatability" class="col-sm-4 box">
+  <table class="table">
+    <tr>
+      <th>Species</th>
+      <th>Compatability</th>
+    </tr>
+      <% @fish.attributes.each do |species, compatability| %>
+        <tr>
+          <td><%= species %></td>
+          <td><%= compatability %></td>
+        </tr>
+      <% end %>
+  </table>
+</div>

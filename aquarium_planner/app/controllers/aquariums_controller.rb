@@ -1,2 +1,0 @@
-class AquariumsController < ApplicationController
-end

@@ -5,6 +5,11 @@ Rails.application.routes.draw do
   get "users" => "users#index"
   get "signup" => "users#new"
   post "users" => "users#create"
+  get "user/:id" => "users#show"
+
+  get "plan" => "aquaria#new", as: :new_aquarium
+  get "aquaria/:id" => "aquaria#show", as: :aquarium
+  post "aquaria" => "aquaria#create"
 
   # routes for logging in/out
   get "login" => "sessions#new"

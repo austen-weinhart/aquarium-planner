@@ -21,6 +21,11 @@ $turquoise: #C5EFF7;
 body {
   /* background-color: $turquoise; */
   background-image: url("water-texture.jpg");
+  background-attachment: fixed;
+}
+
+nav {
+  background: rgba(0,0,0,0.5);
 }
 
 
