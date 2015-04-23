@@ -17,16 +17,17 @@
 
     <!-- List of Fish -->
     <p><strong>Select Your Fish</strong></p>
-    <ul>
-        <% @fishes.each do |fish|  %>
+    <%= f.collection_check_boxes :fish_ids, Fish.all, :id, :name %>
+    <!-- <ul>
+        <%# @fishes.each do |fish|  %>
             <li>
-                <%# link_to image_tag(fish.image_url(:thumb)), fish_path(fish) %>
-                <%= check_box_tag fish.name, fish.name %>
-                <%= fish.name %>
-                <%= link_to "More info", fish_path(fish), :target => "_blank" %>
+                <%#= link_to image_tag(fish.image_url(:thumb)), fish_path(fish) %>
+                <%#= check_box_tag fish.name, fish[:id] %>
+                <%#= fish.name %>
+                <%#= link_to "More info", fish_path(fish), :target => "_blank" %>
             </li>
-        <% end %>
-    </ul>
+        <%# end %>
+  </ul> -->
 
     <%= f.submit "Save", class: "btn btn-success" %>
 

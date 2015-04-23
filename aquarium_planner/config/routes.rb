@@ -8,8 +8,13 @@ Rails.application.routes.draw do
   get "user/:id" => "users#show"
 
   get "plan" => "aquaria#new", as: :new_aquarium
+  get "aquaria" => "aquaria#index"
   get "aquaria/:id" => "aquaria#show", as: :aquarium
   post "aquaria" => "aquaria#create"
+
+  get "aquaria/:id/edit" => "aquaria#edit", as: :edit_aquarium
+  patch "aquaria/:id" => "aquaria#update"
+  delete "aquaria/:id" => "aquaria#destroy"
 
   # routes for logging in/out
   get "login" => "sessions#new"
