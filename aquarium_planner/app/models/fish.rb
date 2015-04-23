@@ -1,3 +1,3 @@
 class Fish < ActiveRecord::Base
-  belongs_to :aquarium
+  has_and_belongs_to_many :aquaria
 end

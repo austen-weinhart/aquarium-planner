@@ -1,6 +1,7 @@
 class AquariaController < ApplicationController
     def new
       @aquarium = Aquarium.new
+      @fishes = Fish.all
     end
 
     def create

@@ -12,6 +12,19 @@
     <%= f.text_area :description %> <!-- text_area is different than text_field -->
   </div>
 
-  <%= f.submit "Submit" %>
+  <!-- List of Fish -->
+  <ul>
+      <% @fishes.each do |fish|  %>
+          <li>
+              <%# link_to image_tag(fish.image_url(:thumb)), fish_path(fish) %>
+              <%= check_box_tag fish.name, fish.name %>
+              <%= fish.name %>
+              <%= link_to "More info", fish_path(fish), :target => "_blank" %>
+          </li>
+      <% end %>
+  </ul>
+
+  <%= f.submit "Save", class: "btn btn-success" %>
 
 <% end %> <!-- closing out the form_for method -->
+

@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root 'static_pages#home'
   get 'static_pages/home'
-  get "fish/:id" => "fishes#show"
+  get "fish/:id" => "fishes#show", as: :fish
   get "users" => "users#index"
   get "signup" => "users#new"
   post "users" => "users#create"
