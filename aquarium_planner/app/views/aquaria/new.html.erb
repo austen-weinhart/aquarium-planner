@@ -17,18 +17,8 @@
 
     <!-- List of Fish -->
     <p><strong>Select Your Fish</strong></p>
-    <%= f.collection_check_boxes :fish_ids, Fish.all, :id, :name %>
-    <!-- <ul>
-        <%# @fishes.each do |fish|  %>
-            <li>
-                <%#= link_to image_tag(fish.image_url(:thumb)), fish_path(fish) %>
-                <%#= check_box_tag fish.name, fish[:id] %>
-                <%#= fish.name %>
-                <%#= link_to "More info", fish_path(fish), :target => "_blank" %>
-            </li>
-        <%# end %>
-  </ul> -->
-
+    <p><%= f.collection_check_boxes :fish_ids, Fish.all, :id, :name, :style => "display: block;" %></p>
+    <br>
     <%= f.submit "Save", class: "btn btn-success" %>
 
   <% end %> <!-- closing out the form_for method -->

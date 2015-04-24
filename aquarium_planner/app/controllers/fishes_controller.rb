@@ -10,5 +10,6 @@ class FishesController < ApplicationController
     }
 
     @fish_page = response.body['parse']['text']['*']
+    # raise @fish_page.inspect
   end
 end

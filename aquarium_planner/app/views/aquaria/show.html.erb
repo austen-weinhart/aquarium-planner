@@ -3,3 +3,11 @@
 <p><%= @aquarium.description %></p>
 
 <p><%= @aquarium.user.name %></p>
+
+<ul>
+  <% @aquarium.fishes.each do |fish| %>
+    <li>
+      <%= fish.name %>
+    </li>
+  <% end %>
+</ul>

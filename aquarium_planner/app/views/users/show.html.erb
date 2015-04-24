@@ -1,1 +1,14 @@
 <h1><%= @user.name %></h1>
+
+<p><%= link_to "Plan a new aquarium!", new_aquarium_path, class: 'btn btn-lg btn-success' %></p>
+
+<ul>
+  <% @user.aquaria.each do |aquarium| %>
+    <li>
+      <%= aquarium.title %>
+      <%= link_to "View", aquarium_path(aquarium) %>
+      <%= link_to "Edit", edit_aquarium_path(aquarium) %>
+      <%= link_to "Delete", aquarium_path(aquarium), method: :delete, data: {confirm: "Are you sure?"} %>
+    </li>
+  <% end %>
+</ul>
